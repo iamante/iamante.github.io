@@ -6357,6 +6357,7 @@ p {
   border: none;
   background-color: #004256;
   color: #fff;
+  cursor: pointer;
 }
 
 .hero-container .hero-content button:hover {
@@ -6712,6 +6713,7 @@ p {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding-top: 20px;
 }
 
 .skills .skills-lang div, .skills .skills-other div {

@@ -138,6 +138,7 @@ p {
           border: none;
           background-color: $base-color;
           color: #fff;
+          cursor: pointer;
         }
 
         button:hover {
@@ -399,6 +400,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 20px;
       
     div {
       display: inline-block;
