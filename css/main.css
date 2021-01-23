@@ -6946,6 +6946,59 @@ footer img {
   z-index: 0;
 }
 
+#status {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: small;
+  color: white;
+  text-align: center;
+}
+
+#status.success {
+  background-color: #28a745;
+  padding: 1em 2em 1em 2em;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color: #dc3545;
+  padding: 1em 2em 1em 2em;
+  color: white;
+  -webkit-animation: status 6s ease forwards;
+          animation: status 6s ease forwards;
+}
+
+@-webkit-keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
 @media (min-width: 600px) {
   .container-inner {
     max-width: 600px;
