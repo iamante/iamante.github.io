@@ -6261,7 +6261,7 @@ p {
           justify-content: space-between;
   -ms-flex-item-align: center;
       align-self: center;
-  padding: 2em 2em 0 2em;
+  padding: 2em 2em 0 1.5em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -6930,7 +6930,7 @@ footer p {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-size: 12px;
+  font-size: 9px;
   color: #fff;
   padding-left: 20px;
   z-index: 99;
@@ -7010,6 +7010,9 @@ footer img {
   .contact-container .logo-footer {
     font-size: 1.5rem;
   }
+  footer p {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -7025,6 +7028,7 @@ footer img {
   footer p {
     padding-left: 3rem;
     padding-bottom: 1rem;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=main.css.map */
